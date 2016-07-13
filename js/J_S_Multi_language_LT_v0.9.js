@@ -94,32 +94,24 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_navpm').innerHTML = arr[lang_index].lang_navpm;
   document.getElementById('lang_navair').innerHTML = arr[lang_index].lang_navair;
   document.getElementById('lang_navmeter').innerHTML = arr[lang_index].lang_navmeter;
-
-
   document.getElementById('lang_homie_title').innerHTML = arr[lang_index].lang_homie_title;
   document.getElementById('lang_homie_cont').innerHTML = arr[lang_index].lang_homie_cont;
   document.getElementById('lang_feature_title01').innerHTML = arr[lang_index].lang_feature_title01;
   document.getElementById('lang_feature_title02').innerHTML = arr[lang_index].lang_feature_title02;
-  document.getElementById('lang_cause_cont02').innerHTML = arr[lang_index].lang_cause_cont02;
   document.getElementById('lang_feature_title03').innerHTML = arr[lang_index].lang_feature_title03;
   document.getElementById('lang_feature_title04').innerHTML = arr[lang_index].lang_feature_title04;
   document.getElementById('lang_feature_title05').innerHTML = arr[lang_index].lang_feature_title05;
-
   document.getElementById('lang_product_title').innerHTML = arr[lang_index].lang_product_title;
   document.getElementById('lang_product_hub').innerHTML = arr[lang_index].lang_product_hub;
   document.getElementById('lang_product_hubcont').innerHTML = arr[lang_index].lang_product_hubcont;
-
   document.getElementById('lang_product_pm').innerHTML = arr[lang_index].lang_product_pm;
   document.getElementById('lang_product_pmcont').innerHTML = arr[lang_index].lang_product_pmcont;
-
   document.getElementById('lang_product_air').innerHTML = arr[lang_index].lang_product_air;
   document.getElementById('lang_product_aircont').innerHTML = arr[lang_index].lang_product_aircont;
-
   document.getElementById('lang_product_meter').innerHTML = arr[lang_index].lang_product_meter;
   document.getElementById('lang_product_metercont').innerHTML = arr[lang_index].lang_product_metercont;
-
   document.getElementById('lang_foot_shortcut').innerHTML = arr[lang_index].lang_foot_shortcut;
-  
+
   document.getElementById('lang_iphone_title').innerHTML = arr[lang_index].lang_iphone_title;
   document.getElementById('lang_iphone_text').innerHTML = arr[lang_index].lang_iphone_text;
   document.getElementById('lang_download').innerHTML = arr[lang_index].lang_download;
