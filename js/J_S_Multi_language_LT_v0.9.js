@@ -90,10 +90,13 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('nav_link5_wording').innerHTML = arr[lang_index].NavLink5;*/
 
   document.getElementById('lang_navintro').innerHTML = arr[lang_index].lang_navintro;
+  document.getElementById('lang_navproduct').innerHTML = arr[lang_index].lang_navproduct;
   document.getElementById('lang_navhub').innerHTML = arr[lang_index].lang_navhub;
   document.getElementById('lang_navpm').innerHTML = arr[lang_index].lang_navpm;
   document.getElementById('lang_navair').innerHTML = arr[lang_index].lang_navair;
   document.getElementById('lang_navmeter').innerHTML = arr[lang_index].lang_navmeter;
+  document.getElementById('lang_navch').innerHTML = arr[lang_index].lang_navch;
+  document.getElementById('lang_naven').innerHTML = arr[lang_index].lang_naven;
   document.getElementById('lang_homie_title').innerHTML = arr[lang_index].lang_homie_title;
   document.getElementById('lang_homie_cont').innerHTML = arr[lang_index].lang_homie_cont;
   document.getElementById('lang_feature_title01').innerHTML = arr[lang_index].lang_feature_title01;
@@ -229,9 +232,9 @@ Multi_Lang_Wording[2]="JP - 日本語";
 
 //多語系網頁Title招呼語 (顯示在瀏覽TAB上)
 Multi_Lang_Title= new Array();
-Multi_Lang_Title[0]="歡迎來到EQL - PC Stick網站";
-Multi_Lang_Title[1]="Welcome to EQL - PC Stick";
-Multi_Lang_Title[2]="EQLへようこそ - PC Stick";
+Multi_Lang_Title[0]="歡迎來到EQL - Homie網站";
+Multi_Lang_Title[1]="Welcome to EQL - Homie";
+Multi_Lang_Title[2]="EQLへようこそ - Homie";
 
 
 //=====文字儲存區 END======
